@@ -204,20 +204,20 @@ var playerInfo = {
     this.attack = 10;
   },
   refillHealth: function() {
-    if (this.money >= 7) {
+    if (this.money >= 6) {
       window.alert("Refilling player's health by 15 for $6.");
-      this.health += 20;
-      this.money -= 7;
+      this.health += 15;
+      this.money -= 6;
     } 
     else {
       window.alert("You don't have enough money!");
     }
   },
   upgradeAttack: function() {
-    if (this.money >= 7) {
+    if (this.money >= 4) {
       window.alert("Upgrading player's attack by 10 for $4.");
-      this.attack += 6;
-      this.money -= 7;
+      this.attack += 10;
+      this.money -= 4;
     } 
     else {
       window.alert("You don't have enough money!");
