@@ -30,6 +30,13 @@ var fightOrSkip = function() {
 }
 
 var fight = function(enemy) {
+  // keep track of who goes first
+  var isPlayerTurn = true;
+
+  if (Math.random() > 0.5) {
+    isPlayerTurn = false;
+  } 
+
   while (playerInfo.health> 0 && enemy.health > 0) {
     fightOrSkip();
 
@@ -179,7 +186,7 @@ var playerInfo = {
   },
   refillHealth: function() {
     if (this.money >= 7) {
-      window.alert("Refilling player's health by 15 for $7.");
+      window.alert("Refilling player's health by 15 for $6.");
       this.health += 20;
       this.money -= 7;
     } 
@@ -189,7 +196,7 @@ var playerInfo = {
   },
   upgradeAttack: function() {
     if (this.money >= 7) {
-      window.alert("Upgrading player's attack by 10 for $5.");
+      window.alert("Upgrading player's attack by 10 for $4.");
       this.attack += 6;
       this.money -= 7;
     } 
