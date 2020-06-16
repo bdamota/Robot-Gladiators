@@ -3,10 +3,16 @@
 ## PURPOSE:
   A game that pits the user robot against the computers' challengers. 
   
-## LINK TO WEBSITE FUNCTIONALITY:
+## MADE WITH:
+ * HTML 
+ * JAVASCRIPT   
+  
+## WEBSITE FUNCTIONALITY:
+Uses a series of window prompts to move player through battles with a new opponent in each round.  
 
 ## LINK TO SCREENSHOT:
 
-## MADE WITH:
-  * HTML 
-  * JAVASCRIPT 
+## LINK TO DEPLOYED SITE:
+ 
+
+
