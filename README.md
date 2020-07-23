@@ -5,7 +5,7 @@
   
 ## MADE WITH:
  * HTML5
- * JAVASCRIPT   
+ * JavaScript  
   
 ## WEBSITE FUNCTIONALITY:
 Uses a series of window prompts to move player through battles with a new opponent in each round.  
